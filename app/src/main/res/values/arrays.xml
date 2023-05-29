@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lessons_array">
+        <item>Trening indywidualny par turniejowych</item>
+        <item>Grupa Turniejowa</item>
+        <item>Grupa Dorosłych Zaawansowana</item>
+        <item>Grupa Lady Solo</item>
+        <item>Grupa Dorosłych Początkująca</item>
+        <item>Grupa przedszkolna</item>
+        <item>Grupa Zaawansowana Dziecięca</item>
+        <item>Żeliwsławki Grupa Dorosłych</item>
+        <item></item>
+    </string-array>
+    <string-array name="locations_array">
+        <item>LOKALIZACJA SP 1</item>
+        <item>LOKALIZACJA ZS 2</item>
+        <item>LOKALIZACJA SP 3</item>
+        <item>LOKALIZACJA CKIS</item>
+        <item>ŻELISŁAWKI</item>
+        <item></item>
+    </string-array>
+</resources>
