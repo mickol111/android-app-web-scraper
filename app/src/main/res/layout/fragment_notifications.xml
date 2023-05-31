@@ -10,6 +10,7 @@
         android:id="@+id/txtFr1"
         android:layout_width="398dp"
         android:layout_height="61dp"
+        android:textAlignment="center"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,27 +23,27 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="328dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="340dp"
-        android:text="Scrape"
+        android:text="@string/scrape"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="328dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="404dp"
-        android:text="Filter"
+        android:text="@string/filter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Spinner
         android:id="@+id/lesson_spinner"
-        android:layout_width="381dp"
+        android:layout_width="370dp"
         android:layout_height="53dp"
         android:layout_marginBottom="524dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -53,8 +54,8 @@
 
     <Spinner
         android:id="@+id/location_spinner"
-        android:layout_width="378dp"
-        android:layout_height="56dp"
+        android:layout_width="370dp"
+        android:layout_height="53dp"
         android:layout_marginBottom="612dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
