@@ -36,7 +36,6 @@ class HomeFragment : Fragment() {
 
     override fun onDestroyView() {
         super.onDestroyView()
-        Log.d("Tag", "Fragment home.onDestroyView() has been called.");
         _binding = null
     }
 }

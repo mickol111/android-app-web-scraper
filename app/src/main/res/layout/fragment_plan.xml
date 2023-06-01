@@ -35,8 +35,8 @@
 
     <ScrollView
         android:layout_width="419dp"
-        android:layout_height="512dp"
-        android:layout_marginBottom="16dp"
+        android:layout_height="500dp"
+        android:layout_marginBottom="50dp"
         android:scrollbars="horizontal|vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -56,7 +56,7 @@
 
             <TableLayout
                 android:layout_width="wrap_content"
-                android:layout_height="545dp">
+                android:layout_height="wrap_content">
 
                 <TableRow
                     android:layout_width="match_parent"
@@ -68,71 +68,71 @@
                         android:id="@+id/textViewP"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/white"
                         android:layout_column="1"
                         android:width="150dp"
                         android:padding="2dp"
-                        android:text="P" />
+                        android:text="P"
+                        android:textColor="@color/white" />
 
                     <TextView
                         android:id="@+id/textViewW"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/white"
                         android:layout_column="2"
                         android:width="150dp"
                         android:padding="2dp"
-                        android:text="W" />
+                        android:text="W"
+                        android:textColor="@color/white" />
 
                     <TextView
                         android:id="@+id/textViewS"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/white"
                         android:layout_column="3"
                         android:width="150dp"
                         android:padding="2dp"
-                        android:text="S" />
+                        android:text="S"
+                        android:textColor="@color/white" />
 
                     <TextView
                         android:id="@+id/textViewC"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/white"
                         android:layout_column="4"
                         android:width="150dp"
                         android:padding="2dp"
-                        android:text="C" />
+                        android:text="C"
+                        android:textColor="@color/white" />
 
                     <TextView
                         android:id="@+id/textViewPt"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/white"
                         android:layout_column="5"
                         android:width="150dp"
                         android:padding="2dp"
-                        android:text="Pt" />
+                        android:text="Pt"
+                        android:textColor="@color/white" />
 
                     <TextView
                         android:id="@+id/textViewSb"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/white"
                         android:layout_column="6"
                         android:width="150dp"
                         android:padding="2dp"
-                        android:text="Sb" />
+                        android:text="Sb"
+                        android:textColor="@color/white" />
 
                     <TextView
                         android:id="@+id/textViewN"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/white"
                         android:layout_column="7"
                         android:width="150dp"
                         android:padding="2dp"
-                        android:text="N" />
+                        android:text="N"
+                        android:textColor="@color/white" />
                 </TableRow>
 
                 <TableRow
@@ -174,8 +174,8 @@
                         android:layout_height="match_parent"
                         android:layout_column="4"
                         android:width="150dp"
-                        android:padding="3dp"
-                        android:orientation="vertical"></LinearLayout>
+                        android:orientation="vertical"
+                        android:padding="3dp"></LinearLayout>
 
                     <LinearLayout
                         android:id="@+id/llPt"
@@ -183,8 +183,8 @@
                         android:layout_height="match_parent"
                         android:layout_column="5"
                         android:width="150dp"
-                        android:padding="3dp"
-                        android:orientation="vertical"></LinearLayout>
+                        android:orientation="vertical"
+                        android:padding="3dp"></LinearLayout>
 
                     <LinearLayout
                         android:id="@+id/llSb"
@@ -192,8 +192,8 @@
                         android:layout_height="match_parent"
                         android:layout_column="6"
                         android:width="150dp"
-                        android:padding="3dp"
-                        android:orientation="vertical"></LinearLayout>
+                        android:orientation="vertical"
+                        android:padding="3dp"></LinearLayout>
 
                     <LinearLayout
                         android:id="@+id/llN"
@@ -201,8 +201,8 @@
                         android:layout_height="match_parent"
                         android:layout_column="7"
                         android:width="150dp"
-                        android:padding="3dp"
-                        android:orientation="vertical"></LinearLayout>
+                        android:orientation="vertical"
+                        android:padding="3dp"></LinearLayout>
                 </TableRow>
 
             </TableLayout>
