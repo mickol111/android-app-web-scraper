@@ -34,18 +34,14 @@ class NotificationsFragment : Fragment(), AdapterView.OnItemSelectedListener {
     private var locationArr = arrayOf("LOKALIZACJA SP 1", "LOKALIZACJA ZS 2", "LOKALIZACJA SP 3",
         "LOKALIZACJA CKIS", "ŻELISŁAWKI","")
     private val viewModel: NotificationsViewModel by activityViewModels()
-
     private var _binding: FragmentNotificationsBinding? = null
-
     private val binding get() = _binding!!
-
     var data =  JSONArray();
     private val client = AsyncHttpClient()
     private var lesson: String? = null
     var location: String? = null
     private var query: String = ""
     private val queryAll: String =  "day=Poniedziałek&day=Wtorek&day=Środa&day=Czwartek&day=Piątek"
-    var connectionResponse:String? = null
 
     @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreateView(
