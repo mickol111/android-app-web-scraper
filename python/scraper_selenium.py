@@ -12,7 +12,7 @@ def run_scraper():
     options.add_argument('--ignore-ssl-errors=yes')
     options.add_argument('--ignore-certificate-errors')
 
-    driver = webdriver.Chrome(options=options, executable_path='D:\STU\II\3\po\proj2\chromedriver_win32')
+    driver = webdriver.Chrome(options=options, executable_path='chromedriver_path')
     driver.get("http://akademiatancasmooth.pl/grafik-zajec/")
     print(driver.page_source)
 

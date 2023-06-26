@@ -11,8 +11,7 @@ class HomeViewModel : ViewModel() {
     }
     private val _textInfo = MutableLiveData<String>().apply {
         value = "Programowanie Obiektowe\nProjekt 03\n" +
-                "Michał Banach\n" +
-                "Michał Kolankowski"
+                "MK"
     }
     val text: LiveData<String> = _text
     val textInfo: LiveData<String> = _textInfo
